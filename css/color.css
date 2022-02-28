@@ -1,0 +1,85 @@
+/* PRIMARY COLOR */
+
+.color-primary-100 {
+      background-color: #D1D2FF;  
+}
+
+.color-primary-200 {
+    background-color: #B4B5FA;  
+}
+
+.color-primary-300 {
+    background-color: #9798F8;  
+}
+
+.color-primary-400 {
+    background-color: #7678ED;  
+}
+
+.color-primary-500 {
+    background-color: #5C5ECF;  
+}
+
+.color-primary-600 {
+    background-color: #393BB4;  
+}
+
+.color-primary-700 {
+    background-color: #2A2C98;  
+}
+
+.color-primary-800 {
+    background-color: #27287E;  
+}
+
+
+/* SECONDARY COLOR */
+
+.color-secondary-100 {
+    background-color: #FFCE90;
+}
+
+.color-secondary-200 {
+    background-color: #FFB860;
+}
+
+
+/* NEUTRAL COLOR */
+
+.color-neutral-100 {
+    background-color: #F8FAFC;
+}
+
+.color-neutral-200 {
+    background-color: #F1F5F9;
+}
+
+.color-neutral-300 {
+    background-color: #CBD5E1;
+}
+
+
+/* SUCCESS COLOR */
+.color-success {
+    background-color: #ACE8B8;
+}
+
+/* WARNING COLOR */
+.color-warning {
+    background-color: #FCD34D;
+}
+
+/* INFORMATION COLOR */
+.color-information {
+    background-color: #46B4F0;
+}
+
+/* ERROR COLOR */
+.color-error {
+    background-color: #FFAFAF;
+}
+
+/* TEXT COLOR */
+.color-text {
+    color: #000356;
+}

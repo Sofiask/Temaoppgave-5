@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.button-primary {
+    height: 57px;
+    width: fit-content;
+    background-color: #D1D2FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+
+}
+
+.button-primary:hover {
+    background-color: #27287E;
+    color: #F8FAFC;
+    transition-duration: 0.4s;
+}
+
+.button-primary:active {
+    background-color: #F8FAFC;
+    color: #000356;
+    transition-duration: 0.4s;
+}
+
+.button-secondary {
+    height: 57px;
+    width: fit-content;
+    background-color: #F8FAFC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #27287E;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.button-secondary:hover {
+    background-color: #27287E;
+    color: #F8FAFC;
+    transition-duration: 0.4s;
+}
+
+.button-secondary:active {
+    background-color: #27287E;
+    color: #F8FAFC;
+    transition-duration: 0.4s;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40;
+    margin-bottom: 40;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 10;
+}
+
+.form input {
+    height: 56px;
+    width: 319px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    border: 1px solid #27287E;
+    background-color: #F1F5F9;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 181px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40;
+}
+
+.avatar {
+    height: 130px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.avatar2 {
+    margin-right: 20px;
+}
+
+.avatarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.heading2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.headingCenter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}

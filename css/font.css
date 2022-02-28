@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Karla";
+    src: url("/assets/Karla/Karla-VariableFont_wght.ttf");
+    font-style: normal;
+    color: #000356;
+}
+
+* {
+    font-family: 'Karla';
+    color: #000356;
+}
+
+.h1-mobile {
+    font-size: 44px;
+    line-height: 125%;
+    font-weight: 600;
+}
+
+.h2-mobile {
+    font-size: 32px;
+    line-height: 125%;
+    font-weight: 500;
+}
+
+.h3-medium-mobile {
+    font-size: 24px;
+    line-height: 125%;
+    font-weight: 700;
+}
+
+.h3-regular-mobile {
+    font-size: 24px;
+    line-height: 125%;
+    font-weight: 400;
+}
+
+.paragraph-bold {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.paragraph-medium {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.paragraph-regular {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 300;
+}
+
+.paragraph-small {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.links {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 300;
+    text-decoration: underline;
+}
