@@ -2,33 +2,49 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40;
+    margin-top: 40px;
     align-items: center;
     text-align: center;
 }
 
-.topBar img {
+.topBarHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.topBarHome img, .topBar img {
     height: 55px;
 }
+
 
 .bottomBar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+
 }
 
 .completed {
-    width: 220;
-    height: 17;
+    width: 220px;
+    height: 17px;
     background-color: #9798F8;
     border-radius: 5px 0px 0px 5px;
     margin-left: 15;
 }
 
 .completed-2 {
-    width: 79;
-    height: 17;
+    width: 79px;
+    height: 17px;
     background-color: #F1F5F9;
     border-radius: 0px 5px 5px 0px;
 }
@@ -41,6 +57,7 @@
 
 .completedContainer {
     display: flex;
+    margin-left: 20px;
 }
 
 .titleContainer {
@@ -212,7 +229,8 @@
     height: 54px;
     width: 335px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     background-color: #86E19A;
     padding: 20px;
     justify-content: space-between;
@@ -224,7 +242,8 @@
     height: 54px;
     width: 335px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     background-color: #FCD34D;
     padding: 20px;
     justify-content: space-between;
@@ -236,7 +255,8 @@
     height: 54px;
     width: 335px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     background-color: #46B4F0;
     padding: 20px;
     justify-content: space-between;
@@ -261,14 +281,28 @@
     margin-top: 40px;
 }
 
-.correct {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
 
 .goodJob {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+
+.gif img {
+    height: 70px;
+}
+
+.gif {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gifContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
