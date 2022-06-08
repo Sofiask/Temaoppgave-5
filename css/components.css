@@ -2,16 +2,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 335px;
     margin-top: 40;
-    margin-left: 20;
     align-items: center;
+    text-align: center;
 }
 
 .topBar img {
     height: 55px;
 }
 
+.bottomBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .completed {
     width: 220;
@@ -130,13 +135,39 @@
     margin-top: 20px;
 }
 
+.statusContainerOrange {
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFCE90;
+    width: 335px;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 3px 3px #DFDFDF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.statusContainerGrey {
+    display: flex;
+    justify-content: space-between;
+    background-color:#CBD5E1;
+    width: 335px;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 3px 3px #DFDFDF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
 .vector {
     margin: 20px;
 }
 
 .vector img {
     height: 25px;
-    weight: 20px;
+    width: 20px;
 }
 
 .topBarVector {
@@ -161,4 +192,83 @@
     margin-top: 40px;
     margin-left: 20px;
     width: 335px;
+}
+
+.textBoxContainer {
+    display: flex;
+    margin: 8px;
+    flex-direction: column;
+}
+
+.ColorBlind {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.messageBoxGreen {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #86E19A;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.messageBoxYellow {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #FCD34D;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.messageBoxBlue {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #46B4F0;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.messageBoxYellow img {
+    height: 30px;
+    width: 30px;
+}
+.messageBoxGreen img {
+    height: 30px;
+    width: 30px;
+}
+.messageBoxBlue img {
+    height: 30px;
+    width: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.correct {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.goodJob {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }

@@ -143,4 +143,23 @@ a {
     margin-top: 40px;
     margin-bottom: 40px;
     align-items: center;
+    text-align: center;
+}
+
+.headingVector {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headingContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.textBoxContainer {
+    margin: 20px;
 }
