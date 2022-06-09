@@ -31,33 +31,13 @@
     bottom: 0;
     z-index: 100;
     width: 100%;
-
 }
 
-.completed {
-    width: 220px;
-    height: 17px;
-    background-color: #9798F8;
-    border-radius: 5px 0px 0px 5px;
-    margin-left: 15;
-}
-
-.completed-2 {
-    width: 79px;
-    height: 17px;
-    background-color: #F1F5F9;
-    border-radius: 0px 5px 5px 0px;
-}
 
 .right {
     display: flex;
     justify-content: end;
-    margin-right: 25px;
-}
-
-.completedContainer {
-    display: flex;
-    margin-left: 20px;
+    margin-top: 25px;
 }
 
 .titleContainer {
@@ -230,6 +210,19 @@
     width: 335px;
     margin-left: 20px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #86E19A;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.messageBoxGreenIcon {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 50px;
     margin-bottom: 100px;
     background-color: #86E19A;
     padding: 20px;
@@ -237,6 +230,19 @@
 }
 
 .messageBoxYellow {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #FCD34D;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.messageBoxYellowIcon {
     display: flex;
     align-items: center;
     height: 54px;
@@ -262,15 +268,28 @@
     justify-content: space-between;
 }
 
-.messageBoxYellow img {
+.messageBoxBlueIcon {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #46B4F0;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.messageBoxYellowIcon img {
     height: 30px;
     width: 30px;
 }
-.messageBoxGreen img {
+.messageBoxGreenIcon img {
     height: 30px;
     width: 30px;
 }
-.messageBoxBlue img {
+.messageBoxBlueIcon img {
     height: 30px;
     width: 30px;
 }
@@ -278,7 +297,7 @@
 .icons {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 
@@ -305,4 +324,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.messageContainer {
+    margin-left: 50px;
+    margin-top: 40px;
 }
